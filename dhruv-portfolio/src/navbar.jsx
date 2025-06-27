@@ -4,14 +4,16 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const scrollToSection = (id) => {
-  const section = document.getElementById(id);
-  if (section) {
-    section.scrollIntoView({
-      behavior: 'smooth', 
-      block: 'start',     
-    });
-  }
-};
+    const section = document.getElementById(id);
+    if (section) {
+      const navbarHeight = 80; // h-20 = 80px
+      const sectionTop = section.getBoundingClientRect().top + window.scrollY - navbarHeight;
+      window.scrollTo({
+        top: sectionTop,
+        behavior: 'smooth'
+      });
+    }
+  };
 
 
 const [activeSection, setActiveSection] = useState("home");

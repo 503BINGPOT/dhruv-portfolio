@@ -34,11 +34,11 @@ const Skills = () => {
         Technologies and tools I use to bring ideas to life.
         </p>
 
-        <div className='px-3  flex flex-col md:flex-row  justify-center w-full max-w-6xl sm:gap-5'>
+        <div className='px-3 flex flex-col md:flex-row justify-center w-full max-w-6xl gap-6 md:gap-5'>
         {SkillsData.map((section, index) => (
             <div
             key={index}
-            className='border border-gray-800 p-8 rounded-xl shadow-md max-w-sm w-60 h-75 mx-5 bg-gradient-to-br from-gray-00 to-gray-900 hover:scale-110 transistion-all duration-300 '
+            className='border border-gray-800 p-6 md:p-8 rounded-xl shadow-md max-w-sm w-full md:w-60 h-75 bg-gradient-to-br from-gray-00 to-gray-900 hover:scale-110 transistion-all duration-300 mb-6 md:mb-0'
             >
                 <h3 className='text-xl font-semibold text-center mb-6'>{section.title}</h3>
                 <ul className='mt-10 space-y-4 text-gray-400 text-md font-medium'>

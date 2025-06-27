@@ -26,8 +26,8 @@ const sendEmail = (e) => {
   return (
     <section
     id="contact"
-    className='min-h-screen  flex flex-col justify-center items-center px-8 md:px-20 bg-gradient-to-br from-gray-900/80 to-black/80 text-white'>
-      <div className=" flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-10">
+    className='min-h-screen flex flex-col justify-center items-center px-8 md:px-20 py-10 md:py-20 bg-gradient-to-br from-gray-900/80 to-black/80 text-white'>
+      <div className=" flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-6 md:gap-10">
         <div className='flex-1'>
         <h2 className='text-4xl md:text-5xl font-bold mb-4'>
           Let's <span className='text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-gray-500'>Connect</span>
@@ -37,7 +37,7 @@ const sendEmail = (e) => {
         </p>
 
 
-        <div className='flex flex-col md:flex-row gap-10'>
+        <div className='flex flex-col md:flex-row gap-6 md:gap-10'>
           <div className='flex-1 space-y-2'>
           <div className='flex items-center gap-4'>
           <div className='p-4 bg-gray-800 rounded-full text-white hover:scale-110 transition-all duration-200 bg-gradient-to-br from-gray-900/90 to-gray-800'>
@@ -72,7 +72,7 @@ const sendEmail = (e) => {
         </div>
                 </div>
 
-      <form ref={form} onSubmit={sendEmail} className='flex-1 bg-[#111827] p-8 rounded-xl space-y-6 shadow-md mt-25'>
+      <form ref={form} onSubmit={sendEmail} className='flex-1 bg-[#111827] p-6 md:p-8 rounded-xl space-y-4 md:space-y-6 shadow-md mt-6 md:mt-8'>
         <div>          
           <label className='block font-semibold mb-1'>Name</label>
             <input
@@ -118,12 +118,10 @@ const sendEmail = (e) => {
       </form>
         </div>
 
-      <div className='flex-grow'/>
-
-  <div className="flex justify-center mt-6 mb-10">
-        <div className=' flex flex-row gap-6 text-3xl text-gray-300 '>
-          <h3 className='py-4 flex  text-2xl font-semibold '>Find me on</h3>
-           <div className='p-4  bg-gray-800 rounded-full text-white hover:scale-110 transition-all duration-200'>
+  <div className="flex justify-center mt-4 md:mt-8">
+        <div className=' flex flex-row gap-4 md:gap-6 text-2xl md:text-3xl text-gray-300 '>
+          <h3 className='py-2 md:py-4 flex text-lg md:text-2xl font-semibold '>Find me on</h3>
+           <div className='p-3 md:p-4  bg-gray-800 rounded-full text-white hover:scale-110 transition-all duration-200'>
           <a
           href='https://www.linkedin.com/in/dhruv-mantri-952965266/'
           target='_blank'
@@ -132,7 +130,7 @@ const sendEmail = (e) => {
             <FaLinkedin/>
           </a>
           </div>
-          <div className='p-4 bg-gray-800 rounded-full text-white hover:scale-110 transition-all duration-200'>
+          <div className='p-3 md:p-4 bg-gray-800 rounded-full text-white hover:scale-110 transition-all duration-200'>
           <a
           href='https://github.com/503BINGPOT'
           target='_blank'

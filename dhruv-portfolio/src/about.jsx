@@ -7,7 +7,7 @@ const About = () =>
   return (
     <section
       id="about"
-      className="min-h-screen snap-start flex flex-col justify-center items-center px-8 md:px-20 bg-gradient-to-tl from-gray-900/80 to-black/80 text-white"
+      className="pt-24 min-h-screen flex flex-col justify-center items-center px-8 md:px-20 bg-gradient-to-tl from-gray-900/80 to-black/80 text-white"
     >
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-10">
         <div className='flex-1'>
