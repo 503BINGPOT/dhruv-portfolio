@@ -5,14 +5,14 @@ const projects = [
   {
     title: "Grocify",
     description:"Developed a responsive grocery store website named **Grocify** using Tailwind CSS, featuring clean UI, product sections, and modern design elements.",
-    image: '/hq720.jpg',
+    image: 'hq720.jpg',
     tags: ['Tailwind CSS'],
     link: "https://github.com/503BINGPOT/Grocify-Tailwind-CSS"
   },
     {
     title: "TicTacToe",
     description:"A simple React-based Tic-Tac-Toe game with interactive UI, player turns, win detection, and reset functionality for replaying matches.",
-    image: '/tictactor.png',
+    image: 'tictactor.png',
     tags: ['Tailwind css', 'React'],
     link: "https://github.com/503BINGPOT/Tic-Tac-Toe"
   },
