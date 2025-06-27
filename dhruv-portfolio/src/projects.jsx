@@ -1,18 +1,19 @@
 import React from 'react'
-
+import grocifyImage from '../public/hq720.jpg'
+import tictactoeImage from '../public/tictactor.png'
 
 const projects = [
   {
     title: "Grocify",
     description:"Developed a responsive grocery store website named **Grocify** using Tailwind CSS, featuring clean UI, product sections, and modern design elements.",
-    image: 'hq720.jpg',
+    image: grocifyImage,
     tags: ['Tailwind CSS'],
     link: "https://github.com/503BINGPOT/Grocify-Tailwind-CSS"
   },
     {
     title: "TicTacToe",
     description:"A simple React-based Tic-Tac-Toe game with interactive UI, player turns, win detection, and reset functionality for replaying matches.",
-    image: 'tictactor.png',
+    image: tictactoeImage,
     tags: ['Tailwind css', 'React'],
     link: "https://github.com/503BINGPOT/Tic-Tac-Toe"
   },

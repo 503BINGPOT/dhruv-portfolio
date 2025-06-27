@@ -1,4 +1,6 @@
 import {FaDownload} from 'react-icons/fa'
+import profileImage from '../public/DhruvMantri.jpg'
+import cvPdf from '../public/DhruvMantri.pdf'
 
 const About = () => 
   {
@@ -20,7 +22,7 @@ const About = () =>
            I'm always eager to learn, build, and contribute to impactful projects that bridge the gap between innovation and real-world solutions.
           </p>
             <button 
-            onClick={() => window.open('DhruvMantri.pdf','_black')}
+            onClick={() => window.open(cvPdf,'_black')}
             className='flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-md text-sm font-semibold'>
                 <FaDownload/> Download CV
             </button>
@@ -29,7 +31,7 @@ const About = () =>
 <div className="flex-1 flex justify-center hover:scale-105 transition-all duration-300">
   <div className="bg-[#131313] p-4 rounded-2xl border border-gray-800 w-[350px] h-[420px] md:w-[400px] md:h-[460px] lg:w-[450px] lg:h-[500px]">
     <img
-      src="DhruvMantri.jpg"
+      src={profileImage}
       alt="About me"
       className="rounded-xl object-cover w-full h-full"
     />
